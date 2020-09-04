@@ -1,6 +1,6 @@
-# Desafio_1
+# Desafio 1
 
-# Hecho por Bruno Aguilar, Ayrton Mera y Jaime Olguin
+Integrantes: Bruno Aguilar, Ayrton Mera y Jaime Olguin
 
 # Ejecución
 
