@@ -234,21 +234,6 @@ def bfs(s):
 """#Ejecutador"""
 
 s0 = State(3)
-a = Action(0,0,1,0)
-s0 = transition(s0, a)
-sFinal = bfs(s0)
-print(sFinal)
-
-s0 = State(3)
-a = Action(0,0,1,0)
-s0 = transition(s0, a)
-actions = get_actions(s0)
-while not actions.empty():
-  a = actions.get()
-  s=transition(s0,a[2])
-  print(s.sudoku.tablero.retorna_matriz())
-
-s0 = State(3)
 s0.sudoku.tablero.agregar_valor(5,0,0)
 s0.sudoku.tablero.agregar_valor(3,0,1)
 s0.sudoku.tablero.agregar_valor(7,0,4)
